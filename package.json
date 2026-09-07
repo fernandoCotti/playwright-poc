@@ -1,0 +1,17 @@
+{
+  "name": "playwright-ts-portfolio",
+  "version": "1.0.0",
+  "description": "E2E, API, and data-driven test automation portfolio built with Playwright and TypeScript, using the Page Object Model.",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test tests/ui",
+    "test:api": "playwright test tests/api",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  }
+}
